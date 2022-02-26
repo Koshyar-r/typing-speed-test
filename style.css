@@ -243,17 +243,28 @@ ul li:hover .tooltip {
         background: #1c96e2;
     }
     .container {
-        width: 150vw;
+        width: 95vw;
         position: absolute;
         top: 50%;
         left: 0;
+    }
+    .typing__text p {
+        font-size: 3.5vw;
+    }
+    .details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+        margin-left: 4rem;
     }
     .details li:not(:first-child) {
         border-left: none;
     }
     ul li .tooltip {
         position: absolute;
-        bottom: -20px;
+        bottom: 2rem;
     }
 }
 @media screen and (min-width: 480px) and (max-width: 680px) {
