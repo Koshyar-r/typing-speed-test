@@ -162,3 +162,20 @@ ul li:hover .tooltip {
 .refresh i:hover {
     background: #1c96e2;
 }
+@media screen and (max-width: 480px) {
+    body {
+        background: #1c96e2;
+        display: grid;
+        place-items: center;
+        position: relative;
+    }
+    .container {
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+    .typing__text p {
+        font-size: 14px;
+    }
+}
