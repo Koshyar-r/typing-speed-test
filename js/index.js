@@ -85,4 +85,4 @@ function reset() {
 RandomParagraphs()
 TryAgainBtn.addEventListener("click", reset)
 InputField.addEventListener("input", initTyping)
-RefreshBtn.addEventListener("click", RandomParagraphs)
+RefreshBtn.addEventListener("click", reset)
