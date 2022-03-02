@@ -167,7 +167,7 @@ ul li:hover .tooltip {
         display: none;
     }
 }
-@media screen and (min-width: 327px) {
+@media screen and (min-width: 327px) and (max-width: 530px) {
     .details {
         padding-bottom: 4rem;
     }
