@@ -162,11 +162,19 @@ ul li:hover .tooltip {
 .refresh i:hover {
     background: #1c96e2;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 326px) {
+    button {
+        display: none;
+    }
+}
+@media screen and (min-width: 327px) {
+    .details {
+        padding-bottom: 4rem;
+    }
+}
+@media screen and (max-width: 530px) {
     body {
         background: #1c96e2;
-        display: grid;
-        place-items: center;
         position: relative;
     }
     .container {
@@ -176,6 +184,38 @@ ul li:hover .tooltip {
         width: 100%;
     }
     .typing__text p {
-        font-size: 14px;
+        font-size: 4vw;
+    }
+    button {
+        position: absolute;
+        top: 28rem;
+    }
+    .content__box {
+        height: 200px;
+    }
+    .details li:not(:first-child) {
+        border-left: none;
+    }
+    .details  {
+        padding-top: ;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 28px;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 4rem;
+        right: 0;
+    }
+    .details li p, .details li span {
+        font-size: 4vw;
+    }
+    .details > * {
+        flex-basis: 5 50px;
+    }
+    .refresh {
+        position: absolute;
+        top: 6rem;
+        right: 0;
     }
 }
